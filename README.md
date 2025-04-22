@@ -4,8 +4,9 @@ A collection of helper utils for my personal projects.
 
 ## ChatGPT
 ```
-from python_helpers import query_chatgpt
+from python_helpers import ChatGPT
 
-response = query_chatgpt("What is the capital of the moon?")
-print(response)
+chat = ChatGPT()
+val = chat.query("What is the capital of the moon?")
+print(val)
 ```
