@@ -2,6 +2,11 @@
 
 A collection of helper utils for my personal projects.
 
+## Installation
+```
+pip install tyler-python-helpers
+```
+
 ## ChatGPT
 ```
 from python_helpers import ChatGPT
