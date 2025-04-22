@@ -9,7 +9,7 @@ pip install tyler-python-helpers
 
 ## ChatGPT
 ```
-from python_helpers import ChatGPT
+from tyler_python_helpers import ChatGPT
 
 chat = ChatGPT()
 val = chat.query("What is the capital of the moon?")
