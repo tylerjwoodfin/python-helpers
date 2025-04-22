@@ -14,11 +14,11 @@ requires-python = ">=3.10"
 dependencies = [
     "openai",
 ]
-urls = {
-    "Homepage" = "https://github.com/tylerjwoodfin/python-helpers",
-    "Bug Tracker" = "https://github.com/tylerjwoodfin/python-helpers/issues",
-    "Documentation" = "https://github.com/tylerjwoodfin/python-helpers#readme",
-}
+
+[project.urls]
+Homepage = "https://github.com/tylerjwoodfin/python-helpers"
+"Bug Tracker" = "https://github.com/tylerjwoodfin/python-helpers/issues"
+Documentation = "https://github.com/tylerjwoodfin/python-helpers#readme"
 
 [project.scripts]
 python_helpers = "python_helpers:main"
